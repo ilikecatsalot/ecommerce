@@ -1,41 +1,99 @@
-/* App.css */
+body {
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height to fill the viewport */
+    background-color: #f5f5f5; /* Optional: Add a background color */
+    font-family: Arial, sans-serif; /* Optional: Set a font */
+}
 
-/* General styles for the app container */
-div {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.amplify-tabs{
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    width: 300px;
+    
 }
 
-/* Header styling */
-h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-}
+.amplify-tabs_list{
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Horizontally center the buttons */
+    align-items: center; /* Vertically align the buttons (if necessary) */
+    gap: 15px; /* Add space between the buttons */
+    height: 100px;
+    
 
-/* Button styling */
-button {
+}
+ 
+/* button{
+    padding: 5px 10px;
+    margin: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
     background-color: #007bff;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
+
+.amplify-flex{
+    padding: 5;
+}
+
+legend{
+    font-size: 20px;
+}
+
+.amplify-textfield{
+    display:flex;
+    padding-top: 10px;
+}
+.amplify-label{
+    padding-right: 10px;
+}
+
+.amplify-field__show-password{
+    
+    margin-top: 5px;
+    font-size: 5px;
+    color: hsl(0, 5%, 56%);
+} 
+
+
+.amplify-tabs__item{
+    padding: 5px 10px;
+    margin: 10px 10px;
     font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #0056b3;
+.amplify-button--primary{
+    padding: 5px 10px;
+    margin: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-button:active {
-    background-color: #004080;
+.amplify-button--small{
+    padding: 5px 10px;
+    margin: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
