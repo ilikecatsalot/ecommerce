@@ -16,5 +16,23 @@
         "ecommerceaf0f467a": {}
       }
     }
+  },
+  "rits": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecommerce-rits-60044-authRole",
+      "UnauthRoleArn": "arn:aws:iam::253490757559:role/amplify-ecommerce-rits-60044-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::253490757559:role/amplify-ecommerce-rits-60044-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-ecommerce-rits-60044-deployment",
+      "UnauthRoleName": "amplify-ecommerce-rits-60044-unauthRole",
+      "StackName": "amplify-ecommerce-rits-60044",
+      "StackId": "arn:aws:cloudformation:ap-south-1:253490757559:stack/amplify-ecommerce-rits-60044/3e2783a0-b0de-11ef-a4df-02ecb7bb56b3",
+      "AmplifyAppId": "d20ew7phte1dji"
+    },
+    "categories": {
+      "auth": {
+        "ecommerceaf0f467a": {}
+      }
+    }
   }
 }
